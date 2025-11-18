@@ -1,7 +1,8 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/breath-lab/", // important for GitHub Pages: /<repo-name>/
-});
+  base: './', // important: relative paths so it works on any domain
+})
