@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/breath-lab/", // repo name – important for GitHub Pages
+  base: "/breath-lab/", // important for GitHub Pages: /<repo-name>/
 });
