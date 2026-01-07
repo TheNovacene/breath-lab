@@ -50,11 +50,11 @@ npm run dev
 Then open the printed localhost URL in your browser.
 
 Build for production
-bash
+```
 Copy code
 npm run build
 Preview the production build
-bash
+```bash
 Copy code
 npm run preview
 Deployment
@@ -67,7 +67,7 @@ The workflow file lives at .github/workflows/deploy.yml
 On every push to main, the site builds and deploys to:
 
 https://thenovacene.github.io/breath-lab/
-
+```
 Licence
 All code and content in this repository are shared under:
 
@@ -132,20 +132,24 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 ```bash
 npm install
+```
 Run the dev server
-bash
+```bash
 Copy code
 npm run dev
+```
 Then open the printed localhost URL in your browser.
 
 Build for production
-bash
+```bash
 Copy code
 npm run build
+```
 Preview the production build
-bash
+```bash
 Copy code
 npm run preview
+```
 Deployment
 This repo is configured to deploy to GitHub Pages using GitHub Actions.
 
@@ -157,7 +161,7 @@ On every push to main, the site builds and deploys to:
 
 https://thenovacene.github.io/breath-lab/
 
-Licence
+##Licence
 All code and content in this repository are shared under:
 
 Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0)
@@ -178,7 +182,7 @@ ShareAlike — If you remix, transform, or build upon it, you must distribute yo
 
 Full legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Health disclaimer
+##Health disclaimer
 Breath Lab is a calming/educational tool, not medical advice.
 
 It is not a substitute for professional mental health or medical support.
@@ -187,7 +191,7 @@ If you have respiratory, cardiovascular, or anxiety-related conditions, use with
 
 Stop immediately if you feel dizzy, distressed, or unwell, and seek appropriate help.
 
-Contributing
+##Contributing
 Pull requests and forks are welcome, especially if you:
 
 Improve accessibility or clarity of cues
